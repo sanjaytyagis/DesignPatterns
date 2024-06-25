@@ -23,11 +23,11 @@ public class PlayerFactory {
          {
          case "Terrorist":
              System.out.println("Terrorist Created");
-             p = (Player) new Terrorist();
+             p = new Terrorist();
              break;
          case "CounterTerrorist":
              System.out.println("Counter Terrorist Created");
-             p = (Player) new CounterTerrorist();
+             p =  new CounterTerrorist();
              break;
          default :
              System.out.println("Unreachable code!");

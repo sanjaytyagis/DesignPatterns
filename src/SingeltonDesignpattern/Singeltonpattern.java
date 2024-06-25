@@ -13,13 +13,13 @@ Also in lazy If two threads comes at a time then both thread will check and crea
 
 public class Singeltonpattern {
 	
-	public Singeltonpattern() {
+	private Singeltonpattern() { // Private constructor means object of this class can't be created outside this class
 		
 	}
 	
 	private static Singeltonpattern Instance = null;
 	
-	public static Singeltonpattern getInstance() {
+	 public static Singeltonpattern getInstance() {
 		
 		if(Instance == null) {
 			synchronized(Singeltonpattern.class) { // Double Locking

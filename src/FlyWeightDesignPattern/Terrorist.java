@@ -1,6 +1,6 @@
 package FlyWeightDesignPattern;
 
-public class Terrorist {
+public class Terrorist implements Player{
 
 	// Intrinsic Attribute that don't change
 	private final String TASK;

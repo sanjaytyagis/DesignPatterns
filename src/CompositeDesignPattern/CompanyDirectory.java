@@ -18,10 +18,10 @@ public class CompanyDirectory implements Employee{
 	@Override
 	public void showEmployeeDetails() {
 		// TODO Auto-generated method stub
-		
+		System.out.println(employeeList.size());
 		for(Employee emp:employeeList)
         {
-			//System.out.println(emp);
+			System.out.println(emp);
             emp.showEmployeeDetails();
         }
 	}

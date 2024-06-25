@@ -1,6 +1,6 @@
 package FlyWeightDesignPattern;
 
-public class CounterTerrorist {
+public class CounterTerrorist implements Player{
 
 	// Intrinsic Attribute
     private final String TASK;
